@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.util.Pair
 import androidx.activity.result.ActivityResultLauncher
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.ui.AppBarConfiguration
 import com.example.netaceptissue22.databinding.ActivityMainBinding
 import eu.nets.pia.PiaSDK
 import eu.nets.pia.ProcessResult
@@ -14,7 +13,6 @@ import eu.nets.pia.wallets.PaymentProcess
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
 
     private val cardPaymentActivityLauncher: ActivityResultLauncher<CardProcessActivityLauncherInput> =
