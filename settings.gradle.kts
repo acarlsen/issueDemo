@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "NetaxeptIssue22"
-include ':app'
+rootProject.name = "issueDemo"
+include(":app")
